@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box {
+ width: 100px;
+ height: 100px;
+ background-color: red;
+ cursor: move;
+}
+
+#DropArea{
+    width: 80%;
+    height: 300px;
+    margin: 50px auto 0;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+#DragArea{
+    width: 80%;
+    height: 300px;
+    margin: 50px auto 0;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transform: 1s;
+    padding: 10px;
+
+}
+
+.item{
+    width: 23%;
+    height: 100px;
+    background-color: red;
+  cursor: move;
+}
